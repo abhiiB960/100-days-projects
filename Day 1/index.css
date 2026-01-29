@@ -1,0 +1,20 @@
+a {
+    font-weight: 400;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    line-height: 2.1;
+}
+ol {
+    list-style: none;
+    line-height: 2.1;
+    
+}
+
+h1 {
+    color: rgb(159, 100, 3);
+    text-align: center;
+}
+
+
