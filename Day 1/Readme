@@ -1,0 +1,43 @@
+📅 Day 1 – Recipe Page (HTML Fundamentals)
+
+This project marks Day 1 of my 100 Days of Projects challenge.
+
+The goal for Day 1 was to solidify core HTML concepts by building a simple, functional project without relying on heavy styling.
+
+🧠 Project Overview
+
+A main index page that acts as a hub for three different recipes
+
+Each recipe links to its own dedicated page
+
+Every recipe page includes:
+
+A brief description
+
+Ingredients list
+
+Step-by-step instructions
+
+🎯 Purpose
+
+This project is inspired by The Odin Project and was built to:
+
+Practice proper HTML structure
+
+Use semantic tags correctly
+
+Work with links, lists, images, and basic page layout
+
+Focus on content and structure over design
+
+🎨 Styling
+
+Minimal to no CSS
+
+Emphasis on clean, readable HTML
+
+Intentionally kept simple to strengthen fundamentals
+
+🚀 What’s Next
+
+From Day 2 onwards, I’ll start introducing CSS and progressively build more complex, real-world projects while continuing this daily challenge.
