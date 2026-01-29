@@ -1,43 +1,57 @@
-📅 Day 1 – Recipe Page (HTML Fundamentals)
+📅 Day 1 – Odin Recipes (HTML Fundamentals)
 
-This project marks Day 1 of my 100 Days of Projects challenge.
+This is Day 1 of my 100 Days of Projects challenge.
 
-The goal for Day 1 was to solidify core HTML concepts by building a simple, functional project without relying on heavy styling.
+For the first day, I focused on strengthening core HTML fundamentals by building a simple multi-page recipe website inspired by The Odin Project.
 
 🧠 Project Overview
 
-A main index page that acts as a hub for three different recipes
+A main landing page that introduces the site and links to three recipes
 
-Each recipe links to its own dedicated page
+Each recipe opens on its own dedicated HTML page
 
-Every recipe page includes:
+Recipes included:
 
-A brief description
+Lasagna 🍅
 
-Ingredients list
+Persimmon Bread 🍞
 
-Step-by-step instructions
+Cheesy Pepper Jelly Bites 🧀
 
-🎯 Purpose
+📄 Structure & Content
 
-This project is inspired by The Odin Project and was built to:
+Each recipe page contains:
 
-Practice proper HTML structure
+A short introduction and description
 
-Use semantic tags correctly
+A brief history section
 
-Work with links, lists, images, and basic page layout
+Ingredients listed using unordered lists
 
-Focus on content and structure over design
+Step-by-step preparation using ordered lists
+
+Navigation links back to the main page
+
+The project emphasizes clear content structure, readability, and proper use of HTML elements such as headings, paragraphs, lists, links, images, and semantic flow.
 
 🎨 Styling
 
-Minimal to no CSS
+Very minimal CSS
 
-Emphasis on clean, readable HTML
+Basic text styling, spacing, and alignment
 
-Intentionally kept simple to strengthen fundamentals
+No focus on layouts or advanced design
 
-🚀 What’s Next
+Styling kept intentionally simple to prioritize HTML fundamentals
 
-From Day 2 onwards, I’ll start introducing CSS and progressively build more complex, real-world projects while continuing this daily challenge.
+🎯 Learning Focus
+
+Writing clean and structured HTML
+
+Linking multiple pages together
+
+Using lists, images, and anchors correctly
+
+Separating content (HTML) from styling (CSS)
+
+Building confidence without relying on frameworks or heavy styling
