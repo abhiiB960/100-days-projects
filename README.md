@@ -3,3 +3,5 @@
 1 project everyday from what i have learnt that day. 
 leveling up each day
 
+Day 1 - Recipes (Odin Recipes).
+Day 2 - 
