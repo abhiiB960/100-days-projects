@@ -3,6 +3,6 @@
 1 project everyday from what i have learnt that day. 
 leveling up each day
 
-Day 1 - Recipes (Odin Recipes) - HTML.
+Day 1 - Recipes (Odin Recipes) - HTML. <br>
 Day 2 - Basic Sign Up Form - CSS.
 Day 3 - Tables JS DOM.
