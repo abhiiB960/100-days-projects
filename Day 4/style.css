@@ -1,0 +1,50 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.catimg {
+  height: 206.35px;
+  object-fit: cover;
+  margin-bottom: 2px;
+}
+.cat-name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.friends {
+  color: rgb(78, 78, 78);
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+.btn {
+  background-color: rgb(63, 110, 190);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: rgb(54, 95, 166);
+  cursor: pointer;
+}
+.main {
+  display: flex;
+
+  margin: 20px;
+
+  border-radius: 2px;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: -1px 1px 15px rgb(163, 163, 163);
+}
+.card:hover {
+  box-shadow: -1px 1px 15px rgb(104, 135, 149);
+  transition: 0.3s;
+}
