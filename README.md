@@ -7,3 +7,4 @@ Day 1 - Recipes (Odin Recipes) - HTML. <br>
 Day 2 - Basic Sign Up Form - CSS. <br>
 Day 3 - Tables - JS DOM. <br>
 Day 4 - Catstagram cards <br>
+Day 5 - Calculator <br>
