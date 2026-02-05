@@ -1,0 +1,46 @@
+.menu-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  column-gap: 20px;
+  align-items: center;
+  background-color: rgba(214, 190, 144, 0.696);
+  border-radius: 0 100px 100px 0;
+  padding: 15px;
+  transition: 0.5s;
+}
+.menu-item:hover {
+  background-color: rgba(181, 160, 121, 0.696);
+
+  cursor: pointer;
+}
+
+.menu-item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 120px;
+}
+
+.f-name,
+.f-description {
+  font-family: Poppins;
+  margin: 0;
+}
+.f-description {
+  font-size: small;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+.f-name {
+  font-weight: 500;
+}
+.main {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  border: 10px solid rgb(183, 125, 125);
+  border-style: dashed;
+  border-radius: 8px;
+}
