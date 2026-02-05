@@ -8,3 +8,4 @@ Day 2 - Basic Sign Up Form - CSS. <br>
 Day 3 - Tables - JS DOM. <br>
 Day 4 - Catstagram cards <br>
 Day 5 - Calculator <br>
+Day 6 - Restaurant page menu <br>
