@@ -12,13 +12,13 @@ This repository tracks my journey through the **100 Days of Code** challenge. Th
 
 | Day | Project | Tech Stack | Status |
 | :--- | :--- | :--- | :---: |
-| 01 | [Odin Recipes](./Day1) | `HTML` | ✅ |
-| 02 | [Basic Sign Up Form](./Day2) | `CSS` | ✅ |
-| 03 | [Interactive Tables](./Day3) | `JS DOM` | ✅ |
-| 04 | [Catstagram Cards](./Day4) | `CSS Grid/Flex` | ✅ |
-| 05 | [Calculator](./Day5) | `JavaScript` | ✅ |
-| 06 | [Restaurant Menu](./Day6) | `HTML/CSS` | ✅ |
-| 07 | [Flexbox Practice](./Day7) | `CSS Flexbox` | ✅ |
+| 01 | [Odin Recipes] | `HTML` | ✅ |
+| 02 | [Basic Sign Up Form]| `CSS` | ✅ |
+| 03 | [Interactive Tables]| `JS DOM` | ✅ |
+| 04 | [Catstagram Cards]| `CSS Grid/Flex` | ✅ |
+| 05 | [Calculator] | `JavaScript` | ✅ |
+| 06 | [Restaurant Menu] | `HTML/CSS` | ✅ |
+| 07 | [Flexbox Practice]| `CSS Flexbox` | ✅ |
 
 ---
 
