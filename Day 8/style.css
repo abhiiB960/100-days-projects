@@ -1,0 +1,100 @@
+/* style2.css */
+
+:root {
+  --bg-color: #f8f9fa;
+  --text-color: #2d3436;
+  --accent-color: #0984e3;
+  --cell-size: 80px;
+  --border-radius: 12px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+/* Grid Layout */
+.screen {
+  display: grid;
+  grid-template-columns: repeat(3, var(--cell-size));
+  grid-template-rows: repeat(3, var(--cell-size));
+  gap: 10px;
+}
+
+/* Individual Buttons (Cells) */
+.box {
+  background: white;
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition:
+    transform 0.1s ease,
+    background 0.2s ease;
+  color: var(--text-color);
+}
+
+.box:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.box:active {
+  transform: translateY(0);
+}
+
+/* Reset Button */
+.reset {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background: transparent;
+  border: 1px solid #dcdde1;
+  border-radius: 30px;
+  text-transform: lowercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #636e72;
+}
+
+.reset:hover {
+  background: var(--text-color);
+  color: white;
+  border-color: var(--text-color);
+}
+
+/* Win Message Overlay */
+.win-container {
+  margin-bottom: 1rem;
+  height: 2rem; /* Keeps layout stable when message appears */
+}
+
+.winner-msg {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.hide {
+  visibility: hidden;
+}
