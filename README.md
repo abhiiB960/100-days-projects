@@ -19,7 +19,7 @@ This repository tracks my journey through the **100 Days of Code** challenge. Th
 | 05 | [Calculator] | `JavaScript` | ✅ |
 | 06 | [Restaurant Menu] | `HTML/CSS` | ✅ |
 | 07 | [Flexbox Practice]| `CSS Flexbox` | ✅ 
-| 08 | REST|  |                           |✅|
+| 08 | GitHub User Card| `Api Basic` |✅|
 | 09 | [Tic Tac Toe]| `JavaScript DOM logics` | ✅ 
 
 
