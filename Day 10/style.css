@@ -1,0 +1,122 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e; /* Dark theme */
+  color: white;
+}
+
+/* --- Top Nav Styling --- */
+.nav-main {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100; /* Ensure nav is above sidebars */
+  border-bottom: 1px solid #ddd;
+  padding: 0 20px;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.cat-name {
+  color: black;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.add-btn {
+  background-color: rgb(63, 128, 233);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.msg-btn {
+  background-color: #e4e6eb;
+  color: black;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* --- Sidebar Styling --- */
+.sidebar-1 {
+  width: 72px;
+  background-color: #202225;
+  position: fixed;
+  top: 60px; /* Starts below the nav */
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.sidebar-1 img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: border-radius 0.2s;
+  cursor: pointer;
+}
+
+.sidebar-1 img:hover {
+  border-radius: 15px;
+}
+
+.sidebar-2 {
+  width: 240px;
+  background-color: #2f3136;
+  position: fixed;
+  top: 60px; /* Starts below the nav */
+  bottom: 0;
+  left: 72px; /* Starts after sidebar-1 */
+  padding: 20px 10px;
+}
+
+.info-plus {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #8e9297;
+}
+
+.channels p {
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #8e9297;
+}
+
+.channels p:hover {
+  background-color: #393c43;
+  color: white;
+}
+
+/* --- Content Area --- */
+.content-area {
+  margin-top: 60px; /* Space for Nav */
+  margin-left: 312px; /* Space for Sidebar 1 + Sidebar 2 */
+  padding: 20px;
+}
